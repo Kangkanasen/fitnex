@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fitnex/static/css/main.380d6f86.css",
-    "main.js": "/fitnex/static/js/main.2122f28b.js",
+    "main.js": "/fitnex/static/js/main.eb1d9aba.js",
     "static/js/453.df697707.chunk.js": "/fitnex/static/js/453.df697707.chunk.js",
     "static/media/heroImg.png": "/fitnex/static/media/heroImg.3f774a4f5c799a36330f.png",
     "static/media/program1.png": "/fitnex/static/media/program1.a0c4b4bc4e13173f4437.png",
@@ -18,11 +18,11 @@
     "static/media/slick.woff": "/fitnex/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/fitnex/index.html",
     "main.380d6f86.css.map": "/fitnex/static/css/main.380d6f86.css.map",
-    "main.2122f28b.js.map": "/fitnex/static/js/main.2122f28b.js.map",
+    "main.eb1d9aba.js.map": "/fitnex/static/js/main.eb1d9aba.js.map",
     "453.df697707.chunk.js.map": "/fitnex/static/js/453.df697707.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.380d6f86.css",
-    "static/js/main.2122f28b.js"
+    "static/js/main.eb1d9aba.js"
   ]
 }
