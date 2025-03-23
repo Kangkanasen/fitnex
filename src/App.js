@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import './style.css';
+import Nav from './Nav';
+import Hero from './Hero';
+import Programs from './Programs';
+import Review from './Review';
+import Plans from './Plans';
+import JoinUsForm from './JoinForm';
+import Footer from './Footer';
+import { gsap } from "gsap";
+    
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { TextPlugin } from "gsap/TextPlugin";
+
+
+gsap.registerPlugin(ScrollTrigger,TextPlugin);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Nav />
+     <Hero />
+     <Programs />
+     <Plans />
+     <Review />
+     <JoinUsForm />
+     <Footer />
     </div>
   );
 }
