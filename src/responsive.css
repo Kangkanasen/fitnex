@@ -1,0 +1,284 @@
+@media (max-width:1800px) {
+    .heroEnd {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width:1440px) {
+    h2 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width:1366px) {
+    .hero .imageSection .imgCon {
+        height: 68vh;
+    }
+
+    .hero .counterSection .number {
+        font-size: 34px;
+    }
+
+    .hero .textSlider .slick-track,
+    .hero .textSlider .slick-list,
+    .slick-vertical .slick-slide {
+        height: 70px !important;
+    }
+}
+
+@media (max-width:1280px) {
+    h2 {
+        font-size: 38px;
+        margin-bottom: 55px;
+    }
+
+    .hero .counterSection .number {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .programCard .cardImage {
+        height: 300px;
+    }
+
+    #slider label {
+        padding: 42px 40.1px 37px 42px;
+    }
+
+    #slider {
+        height: 700px;
+    }
+
+    .container {
+        max-width: 98%;
+    }
+}
+
+@media (max-width:1024px) {
+
+    #s1:checked~#slide2,
+    #s2:checked~#slide3,
+    #s3:checked~#slide1 {
+        transform: translate3d(70%, 0, -90px);
+    }
+
+    #s1:checked~#slide3,
+    #s2:checked~#slide1,
+    #s3:checked~#slide2 {
+        transform: translate3d(-70%, 0, -90px);
+    }
+
+    .join-us-form .innerForm {
+        padding: 73px 120px 54px 120px;
+    }
+
+    .hero .joinMember {
+        margin-bottom: 30px;
+    }
+
+    .hero .counterSection .eachItem {
+        margin-bottom: 64px;
+    }
+}
+
+@media (max-width:991px) {
+    .footerWrap form {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .footerWrap .col-md-12 {
+        margin-top: 50px;
+    }
+
+    .hero .counterSection {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .hero .counterSection .number {
+        font-size: 40px;
+    }
+
+    .hero .counterSection {
+        margin-top: 40px;
+    }
+
+    .programCard .cardImage {
+        height: 230px;
+    }
+
+    .programs {
+        padding-bottom: 50px;
+    }
+
+    .heroEnd {
+        margin-top: 0;
+    }
+}
+
+@media (max-width:767px) {
+    h2 {
+        font-size: 34px;
+    }
+
+    #s1:checked~#slide3,
+    #s2:checked~#slide1,
+    #s3:checked~#slide2 {
+        transform: translate3d(-40%, 0, -90px);
+    }
+
+    #s1:checked~#slide2,
+    #s2:checked~#slide3,
+    #s3:checked~#slide1 {
+        transform: translate3d(40%, 0, -90px);
+    }
+
+    .join-us-form .innerForm {
+        padding: 73px 80px 54px 80px;
+    }
+
+
+    .footerWrap ul {
+        padding: 0;
+    }
+}
+
+@media (max-width:640px) {
+    .hero .imageSection .imgCon {
+        height: 52vh;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .joinMember .infoText h4 {
+        font-size: 22px;
+    }
+
+    .joinMember .infoText p {
+        font-size: 14px;
+    }
+
+    .joinMember .smlImg {
+        height: 40px;
+        width: 40px;
+    }
+
+    .hero .joinMember {
+        margin-bottom: 8px;
+    }
+
+    .hero .joinBtn {
+        margin-top: 20px;
+    }
+
+    .hero .textSlider .eachText {
+        font-size: 14px;
+    }
+
+    .hero .textSlider .slick-track,
+    .hero .textSlider .slick-list,
+    .slick-vertical .slick-slide {
+        height: 50px !important;
+    }
+
+    .hero .joinBtn {
+        font-size: 22px;
+    }
+
+    .hero .counterSection .number {
+        font-size: 32px;
+    }
+
+    .container {
+        min-width: 100%;
+    }
+
+    .join-us-form .innerForm {
+        padding: 73px 50px 54px 50px;
+    }
+
+    .mobView {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobView label {
+        padding: 40px 40px 80px;
+        margin: 20px;
+        border-radius: 30px;
+        border: 1px solid #ff4654 !important;
+    }
+
+    .deskView {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero .col-sm-6 {
+        width: 50%;
+    }
+
+    .counterSection {
+        order: 3;
+        /* Ensure this section is at the bottom */
+    }
+
+    .sml-order {
+        order: 1;
+        /* Move .imageSection above the .counterSection */
+    }
+
+    .textSection {
+        order: 2;
+        /* Keep the textSection in the middle */
+    }
+
+    .hero .imageSection .imgCon {
+        height: 48vh;
+    }
+
+    h2 {
+        margin-bottom: 32px;
+    }
+
+    .joinMember .smlImg:nth-child(3) {
+        position: relative;
+        z-index: 2;
+        left: -20px;
+        margin-right: 0px;
+    }
+
+    .joinMember .smlImg:nth-child(2) {
+        position: relative;
+        z-index: 1;
+        left: -10px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .hero .counterSection .number {
+        font-size: 26px;
+    }
+
+    .hero .counterSection .text {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .programCard .cardImage {
+        height: 350px;
+    }
+}

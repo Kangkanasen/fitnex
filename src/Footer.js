@@ -9,7 +9,7 @@ function Footer() {
         <div className="footerWrap">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 col-md-4">
                         <ul>
                             <li><a href="/"><img src={fitnexLogo} alt="Fitnex Logo" className="logo"/></a></li>
                             <li><a href="/">About</a></li>
@@ -18,7 +18,7 @@ function Footer() {
                             <li><a href="/">Career</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-lg-2 col-md-4">
                         <ul>
                             <h3>Plans</h3>
                             <li><a href="/">Free</a></li>
@@ -26,7 +26,7 @@ function Footer() {
                             <li><a href="/">Elite</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 col-md-4">
                         <ul>
                             <h3>Programs</h3>
                             <li><a href="/">Yoga</a></li>
@@ -34,7 +34,7 @@ function Footer() {
                             <li><a href="/">Cardio</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-12">
                         <h3>Lets  get in touch</h3>
                         <form>
                             <input className="subInput" type="email" name="email" placeholder="Enter your Email" />
@@ -44,7 +44,7 @@ function Footer() {
                 </div>
                 <div className="btmFooter">
                     <div className="row">
-                        <div className="col-lg-6">
+                        <div className="col-lg-5 col-md-4">
                             <ul>
                                 <li><a href="/"><img src={fbIcon} alt="Facebook Icon" className="socialIcon"/></a></li>
                                 <li><a href="/"><img src={igIcon} alt="Instagram Icon" className="socialIcon"/></a></li>
@@ -52,7 +52,7 @@ function Footer() {
                                 <li><a href="/"><img src={linkdinIcon} alt="Linkdin Icon" className="socialIcon"/></a></li>
                             </ul>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-7 col-md-8">
                             <p>©2025 FITNEX All rights reserved. Read our Privacy Policy & Terms & Conditions for more.</p>
                         </div>
                     </div>

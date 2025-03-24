@@ -19,8 +19,8 @@ function Hero() {
     return (
         <div className="hero ">
             <div className='container'>
-                <div className='row align-items-center'>
-                    <div className="counterSection col-lg-2">
+                <div className='row align-items-center mobV'>
+                    <div className="counterSection col-lg-2 col-md-12 order-md-last order-sm-last col-sm-12">
                         <div className="eachItem animated-text">
                             <div className="number red-text">
                                 <span>120</span>+
@@ -40,12 +40,12 @@ function Hero() {
                             <div className="text">Happy Members</div>
                         </div>
                     </div>
-                    <div className='imageSection col-lg-5'>
+                    <div className='imageSection col-lg-5 col-md-6 col-sm-6'>
                         <div className='imgCon'>
                             <img src={HeroImg} alt="Hero" />
                         </div>
                     </div>
-                    <div className='textSection col-lg-5'>
+                    <div className='textSection col-lg-5 col-md-6 col-sm-6'>
                         <h2 className='animated-text'>ACHIEVE PEAK PERFORMANCE WITH <span className='red-text'>EXPERT TRAINING</span></h2>
 
                         <div className='joinMember'>

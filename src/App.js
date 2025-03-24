@@ -1,4 +1,5 @@
 import './style.css';
+import './responsive.css'
 import Nav from './Nav';
 import Hero from './Hero';
 import Programs from './Programs';

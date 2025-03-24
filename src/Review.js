@@ -12,13 +12,38 @@ const Review = () => {
         infinite: true,
         slidesToShow: 3.9,
         slidesToScroll: 1,
-        // autoplay: true,
-        // autoplaySpeed: 0,
-        // speed: 3000,
+        autoplay: true,
         pauseOnHover: false,
         cssEase: 'linear',
         dots: true,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 1480,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1201,
+                settings: {
+                    slidesToShow: 2.5,
+                    centerMode:true,
+                }
+            },
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 1,
+                }
+              },
+        ]
     }
 
     return (

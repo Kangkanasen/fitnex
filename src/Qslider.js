@@ -15,29 +15,55 @@ const Qslider = () => {
     pauseOnHover: false,
     cssEase: 'linear',
     rtl: true,
-    dots:false,
-    arrows:false,
+    dots: false,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1680,
+        settings: {
+          slidesToShow: 5,
+        }
+      },
+      {
+        breakpoint: 1401,
+        settings: {
+          slidesToShow: 4,
+        }
+      },
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+    ]
   };
 
   return (
     <Slider {...settings}>
-      <div className='eachText'> <div className='innerText'><img src={Subtrack} alt='icon'/> Gym News</div></div>
+      <div className='eachText'> <div className='innerText'><img src={Subtrack} alt='icon' /> Gym News</div></div>
 
-      <div className='eachText'> <div className='innerText'><img src={Subtrack} alt='icon'/> Wellness Articles </div></div>
+      <div className='eachText'> <div className='innerText'><img src={Subtrack} alt='icon' /> Wellness Articles </div></div>
 
-      <div className='eachText'> <div className='innerText'><img src={Subtrack} alt='icon'/> Gym Highlights</div> </div>
+      <div className='eachText'> <div className='innerText'><img src={Subtrack} alt='icon' /> Gym Highlights</div> </div>
 
-      <div className='eachText'> <div className='innerText'><img src={Subtrack} alt='icon'/> Nutrition Advice </div></div>
+      <div className='eachText'> <div className='innerText'><img src={Subtrack} alt='icon' /> Nutrition Advice </div></div>
 
-      <div className='eachText'><div className='innerText'> <img src={Subtrack} alt='icon'/> Workout Routines </div></div>
+      <div className='eachText'><div className='innerText'> <img src={Subtrack} alt='icon' /> Workout Routines </div></div>
 
-      <div className='eachText'> <div className='innerText'><img src={Subtrack} alt='icon'/> Fitness Tips</div> </div>
+      <div className='eachText'> <div className='innerText'><img src={Subtrack} alt='icon' /> Fitness Tips</div> </div>
 
-      <div className='eachText'><div className='innerText'> <img src={Subtrack} alt='icon'/> Gym Highlights</div> </div>
+      <div className='eachText'><div className='innerText'> <img src={Subtrack} alt='icon' /> Gym Highlights</div> </div>
 
-      <div className='eachText'><div className='innerText'> <img src={Subtrack} alt='icon'/> Gym News</div> </div>
+      <div className='eachText'><div className='innerText'> <img src={Subtrack} alt='icon' /> Gym News</div> </div>
 
-      <div className='eachText'><div className='innerText'> <img src={Subtrack} alt='icon'/> Workout Routines</div> </div>
+      <div className='eachText'><div className='innerText'> <img src={Subtrack} alt='icon' /> Workout Routines</div> </div>
 
     </Slider>
   );
