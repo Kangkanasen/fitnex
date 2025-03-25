@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fitnex/static/css/main.3064ffbe.css",
-    "main.js": "/fitnex/static/js/main.869ddd42.js",
+    "main.css": "/fitnex/static/css/main.a0bbf80b.css",
+    "main.js": "/fitnex/static/js/main.2f5fe3b4.js",
     "static/js/453.df697707.chunk.js": "/fitnex/static/js/453.df697707.chunk.js",
     "static/media/heroImg.png": "/fitnex/static/media/heroImg.3f774a4f5c799a36330f.png",
     "static/media/program1.png": "/fitnex/static/media/program1.a0c4b4bc4e13173f4437.png",
@@ -17,12 +17,12 @@
     "static/media/slick.ttf": "/fitnex/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/fitnex/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/fitnex/index.html",
-    "main.3064ffbe.css.map": "/fitnex/static/css/main.3064ffbe.css.map",
-    "main.869ddd42.js.map": "/fitnex/static/js/main.869ddd42.js.map",
+    "main.a0bbf80b.css.map": "/fitnex/static/css/main.a0bbf80b.css.map",
+    "main.2f5fe3b4.js.map": "/fitnex/static/js/main.2f5fe3b4.js.map",
     "453.df697707.chunk.js.map": "/fitnex/static/js/453.df697707.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3064ffbe.css",
-    "static/js/main.869ddd42.js"
+    "static/css/main.a0bbf80b.css",
+    "static/js/main.2f5fe3b4.js"
   ]
 }
