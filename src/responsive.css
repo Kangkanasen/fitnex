@@ -282,3 +282,110 @@
         height: 350px;
     }
 }
+
+@media (max-width: 480px) {
+    .hero .imageSection .imgCon {
+        height: 34vh;
+        position: relative;
+        top: -50px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    .joinMember .infoText h4 {
+        font-size: 16px;
+    }
+
+    .joinMember .infoText p {
+        font-size: 12px;
+    }
+
+    .hero .counterSection .number {
+        font-size: 22px !important;
+    }
+
+    .hero .joinBtn {
+        width: 100%;
+    }
+
+    .heroEnd .sliderLeft .eachText .innerText,
+    .heroEnd .sliderRight .eachText .innerText {
+        font-size: 20px;
+    }
+
+    .heroEnd .sliderLeft,
+    .heroEnd .sliderRight {
+        height: 60px;
+    }
+
+    .join-us-form .innerForm {
+        padding: 54px 30px 44px 30px;
+    }
+
+    .hero .joinMember {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .hero h2 {
+        font-size: 16px;
+    }
+
+    .hero .textSlider .slick-track,
+    .hero .textSlider .slick-list,
+    .slick-vertical .slick-slide {
+        /* height: 70px !important; */
+    }
+
+    .hero .textSlider .eachText {
+        font-size: 11px;
+        padding-left: 10px;
+    }
+
+    .hero .joinBtn {
+        font-size: 18px;
+        padding: 6px;
+    }
+
+    .hero .counterSection {
+        padding: 0 20px;
+    }
+
+    .hero .counterSection .eachItem {
+        text-align: center;
+    }
+
+    .programCard .cardImage {
+        height: 220px;
+    }
+
+    .programCard h4 {
+        font-size: 16px;
+    }
+
+    .slick-dots li {
+        width: 26px !important;
+    }
+
+    .slick-dots li.slick-active {
+        width: 56px !important;
+    }
+
+    .buyBtn {
+        padding: 16px 70px;
+    }
+
+    .reviewInner {
+        height: 310px;
+    }
+
+    .planPrice{
+        font-size: 30px;
+    }
+}

@@ -20,7 +20,7 @@ function Hero() {
         <div className="hero ">
             <div className='container'>
                 <div className='row align-items-center mobV'>
-                    <div className="counterSection col-lg-2 col-md-12 order-md-last order-sm-last col-sm-12">
+                    <div className="counterSection col-lg-2 col-md-12 order-lg-first order-md-last order-sm-last col-sm-12">
                         <div className="eachItem animated-text">
                             <div className="number red-text">
                                 <span>120</span>+

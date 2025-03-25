@@ -42,6 +42,12 @@ const Qslidert = () => {
           slidesToShow: 2,
         }
       },
+      {
+        breakpoint: 421,
+        settings: {
+          slidesToShow: 1.5,
+        }
+      },
     ]
   };
 
